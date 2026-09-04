@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>难绷科技™ · NanBeng Technologies</title>
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/fx.css">
+<link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body>
+<div id="cursorGlow"></div>
+<header class="nav">
+<div class="brand"><div class="brandCube">NB</div><div><strong>难绷科技</strong><small>NanBeng Technologies</small></div></div>
+<nav><a href="#home">首页</a><a href="#products">产品</a><a href="#lab">实验室</a><a href="#status">系统状态</a><a href="#about">关于</a></nav>
+<div class="navBadge">ENTERPRISE MAX PRO</div>
+</header>
+<main>
+<section class="hero" id="home">
+<canvas id="bgCanvas"></canvas>
+<div class="heroContent"><div class="pill">2026 全球难绷开发者大会</div><h1>科技的尽头，<br><span>是难绷。</span></h1><p>我们专注研发那些看起来价值 114514 万、实际上没人知道有什么用的技术。</p><div class="heroActions"><button onclick="activateNanBeng()">启动难绷模式</button><a class="secondary" href="#lab">进入实验室</a></div><div class="heroStats"><div><b id="heroIndex">47</b><small>实时难绷指数</small></div><div><b>114%</b><small>理论性能</small></div><div><b>0.00%</b><small>实际必要性</small></div></div></div>
+<div class="heroDevice"><div class="deviceGlow"></div><div class="deviceScreen"><div class="chip">NB-47 ULTRA</div><div class="chipCore">∞</div><div class="chipText">QUANTUM MOYU ENGINE</div></div></div>
+</section>
+<section class="section"><div class="sectionHead"><div><span class="eyebrow">FLAGSHIP TECHNOLOGY</span><h2>四大核心科技</h2></div><p>每一项都足以让投资人点头，让工程师沉默。</p></div><div class="featureGrid"><div class="glassCard tilt"><div class="icon">⚛</div><h3>量子摸鱼引擎</h3><p>同时处于“在工作”和“没工作”两个状态，直到老板观察你。</p><span>Quantum Moyu™</span></div><div class="glassCard tilt"><div class="icon">🧠</div><h3>NanBengGPT-47</h3><p>你问天气，它给你写商业计划书；你问 1+1，它召开董事会。</p><span>AI, probably</span></div><div class="glassCard tilt"><div class="icon">🔋</div><h3>114% 电池</h3><p>突破 100% 这个被传统物理学束缚多年的落后标准。</p><span>Physics optional</span></div><div class="glassCard tilt"><div class="icon">📈</div><h3>难绷指数引擎</h3><p>根据抽象程度动态计算系统难绷值，理论上可超过宇宙年龄。</p><span>∞ scalable</span></div></div></section>
+<section class="section darkSection" id="products"><div class="sectionHead"><div><span class="eyebrow">PRODUCT MATRIX</span><h2>旗舰产品矩阵</h2></div></div><div class="productGrid"><div class="productCard"><div class="productTop"><span>FLAGSHIP</span><b>114 NB</b></div><h3>难绷 Phone 47 Pro Max Ultra</h3><p>18 个摄像头，其中 17 个用于增强高级感。</p><button onclick="toast('已加入完全没必要的购物车')">了解更多</button></div><div class="productCard"><div class="productTop"><span>AI POWERED</span><b>99 NB</b></div><h3>NanBengGPT Enterprise</h3><p>可以把一句话扩写成 47 页董事会汇报。</p><button onclick="toast('董事会已自动创建 47 个会议')">了解更多</button></div><div class="productCard"><div class="productTop"><span>WEARABLE</span><b>88 NB</b></div><h3>摸鱼 Watch X</h3><p>检测到老板后自动显示 Excel 图表。</p><button onclick="toast('老板雷达已启动')">了解更多</button></div><div class="productCard"><div class="productTop"><span>CLOUD</span><b>91 NB</b></div><h3>NB Cloud Infinite</h3><p>把本地文件上传到云，再下载回本地。科技完成。</p><button onclick="toast('云已连接到另一朵云')">了解更多</button></div><div class="productCard"><div class="productTop"><span>AUDIO</span><b>76 NB</b></div><h3>难绷 Buds 47</h3><p>主动降噪，同时主动忽略 Deadline。</p><button onclick="toast('Deadline 已静音')">了解更多</button></div><div class="productCard"><div class="productTop"><span>QUANTUM</span><b>114514 NB</b></div><h3>NB Quantum Box</h3><p>没人知道里面是什么，但售价很贵。</p><button onclick="toast('盒子状态：既有货又没货')">了解更多</button></div></div></section>
+<section class="section" id="lab"><div class="sectionHead"><div><span class="eyebrow">NANBENG LABS</span><h2>难绷实验室</h2></div><p>请勿在没有成年人陪同的情况下运行这些按钮。</p></div><div class="labGrid"><div class="panel"><div class="panelHead"><h3>核心科技终端</h3><span>LIVE</span></div><pre id="terminal">[BOOT] NanBeng OS 114.514
+[OK] Quantum Moyu Engine
+[OK] Uselessness Accelerator
+[WARN] Practical Value module not found
+[READY] Awaiting command...</pre><div class="buttonRow"><button onclick="runExperiment()">运行实验</button><button class="ghostBtn" onclick="meltdown()">超频到 114%</button></div></div><div class="panel"><div class="panelHead"><h3>量子负载</h3><span>SIMULATED</span></div><canvas id="labChart" width="700" height="360"></canvas></div><div class="panel full"><h3>企业级按钮测试区</h3><div class="dangerButtons"><button onclick="toast('AI 已开始思考一个完全不重要的问题')">启动 AI</button><button onclick="toast('云已成功连接到另一朵云')">连接云</button><button onclick="toast('老板检测器：附近暂无老板')">检测老板</button><button onclick="toast('PPT 已自动增加 47 页')">生成 PPT</button><button onclick="toast('性能提升 0%，宣传提升 114%')">优化系统</button></div></div></div></section>
+<section class="section" id="status"><div class="sectionHead"><div><span class="eyebrow">GLOBAL STATUS</span><h2>全球难绷网络</h2></div><p>所有数字都非常专业，因此看起来一定是真的。</p></div><div class="metricsGrid"><div class="metricBox"><small>GLOBAL UPTIME</small><b>99.99947%</b></div><div class="metricBox"><small>ACTIVE NODES</small><b>59</b></div><div class="metricBox"><small>AVG LATENCY</small><b>47 ms</b></div><div class="metricBox"><small>NB INDEX</small><b>114514</b></div></div><div class="panel"><h3>节点状态</h3><div class="nodeTable" id="nodeTable"></div></div></section>
+<section class="section" id="about"><div class="sectionHead"><div><span class="eyebrow">ABOUT NANBENG</span><h2>关于难绷科技</h2></div></div><div class="aboutGrid"><div class="glassCard"><h3>公司使命</h3><p>用最先进的技术，解决最没必要的问题。</p></div><div class="glassCard"><h3>企业愿景</h3><p>让世界每一个角落都能发出一句：太难绷了。</p></div><div class="glassCard"><h3>核心价值</h3><p>创新、抽象、过度设计、PPT 优先。</p></div><div class="glassCard"><h3>研发原则</h3><p>只要动画够顺滑，功能以后再说。</p></div></div></section>
+</main>
+<footer><div>© 2026 难绷科技™ · 本公司所有技术均可能毫无必要</div><div class="footerRight">GitHub Pages Static Build · Powered by 量子摸鱼</div></footer>
+<div id="toast"></div>
+<script src="assets/js/utils.js"></script><script src="assets/js/background.js"></script><script src="assets/js/charts.js"></script><script src="assets/js/app.js"></script>
+<script>
+const staticNodes=[["NB-Node-001","Shanghai","18","Operational"],["NB-Node-002","London","47","Operational"],["NB-Node-003","Tokyo","32","Operational"],["NB-Node-004","Singapore","28","Operational"],["NB-Node-005","Frankfurt","55","Degraded"],["NB-Node-006","New York","83","Operational"],["NB-Node-007","Sydney","71","Operational"],["NB-Node-008","Seoul","39","Operational"],["NB-Node-009","Mars Relay","188","Degraded"]];
+document.addEventListener("DOMContentLoaded",()=>{const table=document.getElementById("nodeTable");if(table){staticNodes.forEach(n=>{const row=document.createElement("div");row.innerHTML=`<span>${n[0]}</span><span>${n[1]}</span><span>${n[2]} ms</span><span class="${n[3]==='Operational'?'green':'yellow'}">${n[3]}</span>`;table.appendChild(row);});}});
+</script>
+</body>
+</html>
