@@ -1,0 +1,1 @@
+<?php define('APP_VERSION','114.514.47'); define('DATA_DIR',__DIR__.'/../assets/data'); date_default_timezone_set('Asia/Shanghai'); ?>

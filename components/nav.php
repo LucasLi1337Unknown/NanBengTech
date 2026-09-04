@@ -1,0 +1,1 @@
+<header class="nav"><div class="brand"><div class="cube">NB</div><div><b>难绷科技</b><small>NANBENG TECHNOLOGIES</small></div></div><nav><a href="?page=home">首页</a><a href="?page=products">产品</a><a href="?page=lab">实验室</a><a href="?page=status">状态</a><a href="?page=about">关于</a></nav><span class="badge">ENTERPRISE MAX PRO</span></header>

@@ -1,0 +1,1 @@
+const NB={rand:(a,b)=>Math.floor(Math.random()*(b-a+1))+a,pick:a=>a[Math.floor(Math.random()*a.length)]};function toast(t){const x=document.getElementById('toast');x.textContent=t;x.classList.add('show');setTimeout(()=>x.classList.remove('show'),2000)}

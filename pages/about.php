@@ -1,0 +1,1 @@
+<section class="pagehero"><small>ABOUT NANBENG</small><h1>关于难绷科技</h1><p>一家认真地做不太认真的科技的公司。</p></section><section class="section features"><article><h3>公司使命</h3><p>用最先进的技术，解决最没必要的问题。</p></article><article><h3>企业愿景</h3><p>让世界每一个角落都能发出一句：太难绷了。</p></article><article><h3>核心价值</h3><p>创新、抽象、过度设计、PPT 优先。</p></article><article><h3>研发原则</h3><p>只要动画够顺滑，功能以后再说。</p></article></section>

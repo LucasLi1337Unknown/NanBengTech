@@ -1,0 +1,4 @@
+<section class="pagehero"><small>NANBENG LABS</small><h1>难绷实验室</h1><p>请勿在没有成年人陪同的情况下运行这些按钮。</p></section><section class="section lab"><div class="panel"><h3>核心科技终端</h3><pre id="terminal">[BOOT] NanBeng OS 114.514
+[OK] Quantum Moyu Engine
+[WARN] Practical Value module not found
+[READY] Awaiting command...</pre><div class="actions"><button onclick="runExperiment()">运行实验</button><button onclick="meltdown()">超频到 114%</button></div></div><div class="panel"><h3>企业级按钮测试区</h3><div class="buttons"><button onclick="toast('AI 已开始思考一个完全不重要的问题')">启动 AI</button><button onclick="toast('云已成功连接到另一朵云')">连接云</button><button onclick="toast('附近暂无老板')">检测老板</button><button onclick="toast('PPT 已自动增加 47 页')">生成 PPT</button><button onclick="toast('宣传提升 114%')">优化系统</button></div></div></section>

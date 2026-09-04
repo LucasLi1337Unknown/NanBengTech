@@ -1,0 +1,1 @@
+<?php header('Content-Type: application/json'); echo json_encode(['message'=>'CEO command accepted','result'=>'所有部门立即开始难绷','code'=>47],JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE); ?>

@@ -1,0 +1,1 @@
+<?php function e($v){return htmlspecialchars((string)$v,ENT_QUOTES,'UTF-8');} function dataj($n){$p=DATA_DIR.'/'.$n; return file_exists($p)?(json_decode(file_get_contents($p),true)?:[]):[];} ?>

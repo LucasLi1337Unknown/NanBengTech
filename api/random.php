@@ -1,0 +1,1 @@
+<?php header('Content-Type: application/json'); $a=[]; for($i=1;$i<=47;$i++)$a[]=['id'=>$i,'performance'=>random_int(90,114),'uselessness'=>random_int(1,100),'ppt_pages'=>random_int(1,47)]; echo json_encode($a,JSON_PRETTY_PRINT); ?>

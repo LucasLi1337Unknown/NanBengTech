@@ -1,0 +1,1 @@
+<?php header('Content-Type: application/json'); echo json_encode(['ok'=>true,'company'=>'NanBeng Technologies','status'=>'Extremely Operational','nanbeng_index'=>random_int(4700,114514),'time'=>date('c')],JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE); ?>

@@ -1,0 +1,4 @@
+<?php
+require __DIR__.'/includes/config.php'; require __DIR__.'/includes/helpers.php';
+$page=$_GET['page']??'home'; $allowed=['home','products','lab','status','about']; if(!in_array($page,$allowed,true))$page='home';
+?><!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>难绷科技™</title><link rel="stylesheet" href="assets/css/base.css"><link rel="stylesheet" href="assets/css/pages.css"></head><body><div id="glow"></div><?php include __DIR__.'/components/nav.php'; ?><main><?php include __DIR__.'/pages/'.$page.'.php'; ?></main><?php include __DIR__.'/components/footer.php'; ?><div id="toast"></div><script src="assets/js/utils.js"></script><script src="assets/js/bg.js"></script><script src="assets/js/app.js"></script></body></html>

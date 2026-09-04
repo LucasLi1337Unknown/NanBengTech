@@ -1,0 +1,1 @@
+<footer><span>© 2026 难绷科技™ · 本公司对实际用途概不负责</span><span>Build 114.514.47 · Powered by 量子摸鱼</span></footer>

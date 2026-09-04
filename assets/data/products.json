@@ -1,0 +1,50 @@
+[
+  {
+    "tag": "FLAGSHIP",
+    "name": "难绷 Phone 47 Pro Max Ultra",
+    "desc": "18 个摄像头，其中 17 个只负责让背面更复杂。",
+    "spec": "NB-47 Ultra · 114% Battery · 47TB RAM"
+  },
+  {
+    "tag": "AI POWERED",
+    "name": "NanBengGPT Enterprise",
+    "desc": "把一句话扩写成 47 页董事会汇报。",
+    "spec": "47T parameters* · PPT native"
+  },
+  {
+    "tag": "WEARABLE",
+    "name": "摸鱼 Watch X",
+    "desc": "检测到老板后 0.47ms 内自动打开 Excel。",
+    "spec": "Boss Radar · Panic Mode"
+  },
+  {
+    "tag": "CLOUD",
+    "name": "NB Cloud Infinite",
+    "desc": "把本地文件传到云，再下载回本地。科技完成。",
+    "spec": "114 regions · ∞ tiers"
+  },
+  {
+    "tag": "AUDIO",
+    "name": "难绷 Buds 47",
+    "desc": "主动降噪，同时主动忽略 Deadline。",
+    "spec": "Deadline Cancellation · 47h"
+  },
+  {
+    "tag": "HOME",
+    "name": "NB Fridge AI",
+    "desc": "识别冰箱里没什么吃的，并生成深度分析。",
+    "spec": "Food Vision · Sadness Detection"
+  },
+  {
+    "tag": "DESKTOP",
+    "name": "NanBeng Studio Max",
+    "desc": "专为同时打开 114 个浏览器标签页设计。",
+    "spec": "114-core-ish · 47 fans"
+  },
+  {
+    "tag": "QUANTUM",
+    "name": "NB Quantum Box",
+    "desc": "没人知道里面是什么，因此我们把它卖得很贵。",
+    "spec": "Schrödinger Certified"
+  }
+]
